@@ -5,7 +5,7 @@
     <classes>
       <class name="TaeAutomation.AssuredTraining.RestAssuredTest2">
         <methods>
-          <include name="testJsonResponseValidationPosts" invocation-numbers="2 3 4 5"/>
+          <include name="testParamsPosts" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- TaeAutomation.AssuredTraining.RestAssuredTest2 -->
     </classes>
