@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import junit.framework.Assert;
 
 public class RestAssuredTestParte1 {
 	
@@ -33,6 +34,8 @@ public class RestAssuredTestParte1 {
 	public void testResources(String resources) {
 		Response response = RestAssured.given().get(resources);
 		response.then().assertThat().statusCode(200).log().body();
+		
+		Assert.assertEquals(200, response.statusCode());
 	}
 	
 

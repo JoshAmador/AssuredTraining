@@ -1,83 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="17" passed="17">
+<testng-results skipped="0" failed="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="suiteRestAssured" duration-ms="7513" started-at="2018-04-06T01:51:03Z" finished-at="2018-04-06T01:51:11Z">
+  <suite name="suiteRestAssured" duration-ms="6537" started-at="2018-04-11T08:10:05Z" finished-at="2018-04-11T08:10:12Z">
     <groups>
     </groups>
-    <test name="testAssuredParte1" duration-ms="3830" started-at="2018-04-06T01:51:03Z" finished-at="2018-04-06T01:51:07Z">
-      <class name="TaeAutomation.AssuredTraining.RestAssuredTestParte1">
-        <test-method status="PASS" signature="testResources(java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte1@59fa1d9b]" name="testResources" duration-ms="2094" started-at="2018-04-05T20:51:03Z" data-provider="RestAssuredResources" finished-at="2018-04-05T20:51:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://jsonplaceholder.typicode.com/posts]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testResources -->
-        <test-method status="PASS" signature="testResources(java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte1@59fa1d9b]" name="testResources" duration-ms="395" started-at="2018-04-05T20:51:05Z" data-provider="RestAssuredResources" finished-at="2018-04-05T20:51:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://jsonplaceholder.typicode.com/comments]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testResources -->
-        <test-method status="PASS" signature="testResources(java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte1@59fa1d9b]" name="testResources" duration-ms="181" started-at="2018-04-05T20:51:06Z" data-provider="RestAssuredResources" finished-at="2018-04-05T20:51:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://jsonplaceholder.typicode.com/albums]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testResources -->
-        <test-method status="PASS" signature="testResources(java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte1@59fa1d9b]" name="testResources" duration-ms="728" started-at="2018-04-05T20:51:06Z" data-provider="RestAssuredResources" finished-at="2018-04-05T20:51:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://jsonplaceholder.typicode.com/photos]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testResources -->
-        <test-method status="PASS" signature="testResources(java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte1@59fa1d9b]" name="testResources" duration-ms="216" started-at="2018-04-05T20:51:07Z" data-provider="RestAssuredResources" finished-at="2018-04-05T20:51:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://jsonplaceholder.typicode.com/todos]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testResources -->
-        <test-method status="PASS" signature="testResources(java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte1@59fa1d9b]" name="testResources" duration-ms="181" started-at="2018-04-05T20:51:07Z" data-provider="RestAssuredResources" finished-at="2018-04-05T20:51:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://jsonplaceholder.typicode.com/users]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testResources -->
-      </class> <!-- TaeAutomation.AssuredTraining.RestAssuredTestParte1 -->
-    </test> <!-- testAssuredParte1 -->
-    <test name="testAssuredParte2" duration-ms="3608" started-at="2018-04-06T01:51:07Z" finished-at="2018-04-06T01:51:11Z">
+    <test name="testAssuredParte2" duration-ms="6537" started-at="2018-04-11T08:10:05Z" finished-at="2018-04-11T08:10:12Z">
       <class name="TaeAutomation.AssuredTraining.RestAssuredTestParte2">
-        <test-method status="PASS" signature="testJsonResponseCompare(java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@146ba0ac]" name="testJsonResponseCompare" duration-ms="512" started-at="2018-04-05T20:51:07Z" data-provider="DataProviderFilterItems" finished-at="2018-04-05T20:51:08Z">
+        <test-method status="PASS" signature="testJsonResponseCompare(java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@26653222]" name="testJsonResponseCompare" duration-ms="2107" started-at="2018-04-11T03:10:05Z" data-provider="DataProviderFilterItems" finished-at="2018-04-11T03:10:07Z">
           <params>
             <param index="0">
               <value>
@@ -111,7 +41,7 @@ omnis rerum consequatur expedita quidem cumque explicabo]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJsonResponseCompare -->
-        <test-method status="PASS" signature="testJsonResponseCompare(java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@146ba0ac]" name="testJsonResponseCompare" duration-ms="118" started-at="2018-04-05T20:51:08Z" data-provider="DataProviderFilterItems" finished-at="2018-04-05T20:51:08Z">
+        <test-method status="PASS" signature="testJsonResponseCompare(java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@26653222]" name="testJsonResponseCompare" duration-ms="133" started-at="2018-04-11T03:10:07Z" data-provider="DataProviderFilterItems" finished-at="2018-04-11T03:10:07Z">
           <params>
             <param index="0">
               <value>
@@ -145,7 +75,7 @@ adipisci impedit sequi nesciunt quis consectetur]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJsonResponseCompare -->
-        <test-method status="PASS" signature="testJsonResponseCompare(java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@146ba0ac]" name="testJsonResponseCompare" duration-ms="120" started-at="2018-04-05T20:51:08Z" data-provider="DataProviderFilterItems" finished-at="2018-04-05T20:51:08Z">
+        <test-method status="PASS" signature="testJsonResponseCompare(java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@26653222]" name="testJsonResponseCompare" duration-ms="146" started-at="2018-04-11T03:10:07Z" data-provider="DataProviderFilterItems" finished-at="2018-04-11T03:10:07Z">
           <params>
             <param index="0">
               <value>
@@ -179,7 +109,7 @@ accusamus ratione error aut]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJsonResponseCompare -->
-        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@146ba0ac]" name="testJsonResponseValidationPosts" duration-ms="736" started-at="2018-04-05T20:51:08Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-05T20:51:09Z">
+        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@26653222]" name="testJsonResponseValidationPosts" duration-ms="1027" started-at="2018-04-11T03:10:07Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-11T03:10:08Z">
           <params>
             <param index="0">
               <value>
@@ -195,7 +125,7 @@ accusamus ratione error aut]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJsonResponseValidationPosts -->
-        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@146ba0ac]" name="testJsonResponseValidationPosts" duration-ms="362" started-at="2018-04-05T20:51:09Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-05T20:51:09Z">
+        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@26653222]" name="testJsonResponseValidationPosts" duration-ms="527" started-at="2018-04-11T03:10:08Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-11T03:10:09Z">
           <params>
             <param index="0">
               <value>
@@ -211,7 +141,7 @@ accusamus ratione error aut]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJsonResponseValidationPosts -->
-        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@146ba0ac]" name="testJsonResponseValidationPosts" duration-ms="178" started-at="2018-04-05T20:51:09Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-05T20:51:09Z">
+        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@26653222]" name="testJsonResponseValidationPosts" duration-ms="335" started-at="2018-04-11T03:10:09Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-11T03:10:09Z">
           <params>
             <param index="0">
               <value>
@@ -227,7 +157,7 @@ accusamus ratione error aut]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJsonResponseValidationPosts -->
-        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@146ba0ac]" name="testJsonResponseValidationPosts" duration-ms="761" started-at="2018-04-05T20:51:09Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-05T20:51:10Z">
+        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@26653222]" name="testJsonResponseValidationPosts" duration-ms="1026" started-at="2018-04-11T03:10:09Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-11T03:10:10Z">
           <params>
             <param index="0">
               <value>
@@ -243,7 +173,7 @@ accusamus ratione error aut]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJsonResponseValidationPosts -->
-        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@146ba0ac]" name="testJsonResponseValidationPosts" duration-ms="214" started-at="2018-04-05T20:51:10Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-05T20:51:10Z">
+        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@26653222]" name="testJsonResponseValidationPosts" duration-ms="298" started-at="2018-04-11T03:10:10Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-11T03:10:11Z">
           <params>
             <param index="0">
               <value>
@@ -259,7 +189,7 @@ accusamus ratione error aut]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJsonResponseValidationPosts -->
-        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@146ba0ac]" name="testJsonResponseValidationPosts" duration-ms="199" started-at="2018-04-05T20:51:10Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-05T20:51:11Z">
+        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@26653222]" name="testJsonResponseValidationPosts" duration-ms="329" started-at="2018-04-11T03:10:11Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-11T03:10:11Z">
           <params>
             <param index="0">
               <value>
@@ -275,7 +205,7 @@ accusamus ratione error aut]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJsonResponseValidationPosts -->
-        <test-method status="PASS" signature="testParamsPosts(java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@146ba0ac]" name="testParamsPosts" duration-ms="231" started-at="2018-04-05T20:51:11Z" data-provider="DataProviderFilterParams" finished-at="2018-04-05T20:51:11Z">
+        <test-method status="PASS" signature="testParamsPosts(java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@26653222]" name="testParamsPosts" duration-ms="287" started-at="2018-04-11T03:10:11Z" data-provider="DataProviderFilterParams" finished-at="2018-04-11T03:10:11Z">
           <params>
             <param index="0">
               <value>
@@ -286,7 +216,7 @@ accusamus ratione error aut]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testParamsPosts -->
-        <test-method status="PASS" signature="testParamsPosts(java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@146ba0ac]" name="testParamsPosts" duration-ms="161" started-at="2018-04-05T20:51:11Z" data-provider="DataProviderFilterParams" finished-at="2018-04-05T20:51:11Z">
+        <test-method status="PASS" signature="testParamsPosts(java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@26653222]" name="testParamsPosts" duration-ms="258" started-at="2018-04-11T03:10:11Z" data-provider="DataProviderFilterParams" finished-at="2018-04-11T03:10:12Z">
           <params>
             <param index="0">
               <value>

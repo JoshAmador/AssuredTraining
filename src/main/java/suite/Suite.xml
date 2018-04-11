@@ -2,11 +2,11 @@
 
 <suite name="suiteRestAssured">
 
-	<test name="testAssuredParte1">
+<!-- 	<test name="testAssuredParte1">
 		<classes>
 			<class name="TaeAutomation.AssuredTraining.RestAssuredTestParte1"></class>
 		</classes>
-	</test>
+	</test> -->
 
 	<test name="testAssuredParte2">
 		<classes>

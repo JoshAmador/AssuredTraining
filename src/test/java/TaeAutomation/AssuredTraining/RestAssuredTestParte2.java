@@ -67,6 +67,8 @@ public class RestAssuredTestParte2 {
 
 		RestAssured.given().params("postId", 1).params("userId", 1).when()
 				.get(resourceName).then().log().all();
+		
+		Assert.assertNotNull(resourceName);
 
 	}
 
