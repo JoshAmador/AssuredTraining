@@ -58,15 +58,16 @@ public class RestAssuredTestParte2 {
 
 	@DataProvider(name = "DataProviderFilterParams")
 	public Object[][] createDataParamsItems() {
-		return new Object[][] { { "https://jsonplaceholder.typicode.com/comments?postId=1" },
-				{ "https://jsonplaceholder.typicode.com/posts?userId=1" }, };
+		return new Object[][] { { "https://jsonplaceholder.typicode.com/comments?postId" },
+				{ "https://jsonplaceholder.typicode.com/posts?userId" }, };
 	}
 
 	@Test(dataProvider = "DataProviderFilterParams")
 	public void testParamsPosts(String resourceName) {
-
+		
 		RestAssured.given().params("postId", 1).params("userId", 1).when()
 				.get(resourceName).then().log().all();
+		System.out.println("Output:" + resourceName);
 		
 		Assert.assertNotNull(resourceName);
 
