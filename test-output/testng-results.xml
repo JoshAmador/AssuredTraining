@@ -1,226 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="11" passed="11">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6223" started-at="2018-04-11T19:59:32Z" finished-at="2018-04-11T19:59:39Z">
+  <suite name="Default suite" duration-ms="3415" started-at="2018-04-12T16:56:33Z" finished-at="2018-04-12T16:56:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6223" started-at="2018-04-11T19:59:32Z" finished-at="2018-04-11T19:59:39Z">
+    <test name="Default test" duration-ms="3415" started-at="2018-04-12T16:56:33Z" finished-at="2018-04-12T16:56:37Z">
       <class name="TaeAutomation.AssuredTraining.RestAssuredTestParte2">
-        <test-method status="PASS" signature="testJsonResponseCompare(java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@ae45eb6]" name="testJsonResponseCompare" duration-ms="2204" started-at="2018-04-11T14:59:32Z" data-provider="DataProviderFilterItems" finished-at="2018-04-11T14:59:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[20]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[20]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[doloribus ad provident suscipit at]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[qui consequuntur ducimus possimus quisquam amet similique
-suscipit porro ipsam amet
-eos veritatis officiis exercitationem vel fugit aut necessitatibus totam
-omnis rerum consequatur expedita quidem cumque explicabo]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testJsonResponseCompare -->
-        <test-method status="PASS" signature="testJsonResponseCompare(java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@ae45eb6]" name="testJsonResponseCompare" duration-ms="89" started-at="2018-04-11T14:59:35Z" data-provider="DataProviderFilterItems" finished-at="2018-04-11T14:59:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[50]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[50]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[repellendus qui recusandae incidunt voluptates tenetur qui omnis exercitationem]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[error suscipit maxime adipisci consequuntur recusandae
-voluptas eligendi et est et voluptates
-quia distinctio ab amet quaerat molestiae et vitae
-adipisci impedit sequi nesciunt quis consectetur]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testJsonResponseCompare -->
-        <test-method status="PASS" signature="testJsonResponseCompare(java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@ae45eb6]" name="testJsonResponseCompare" duration-ms="63" started-at="2018-04-11T14:59:35Z" data-provider="DataProviderFilterItems" finished-at="2018-04-11T14:59:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[100]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[100]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[at nam consequatur ea labore ea harum]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[cupiditate quo est a modi nesciunt soluta
-ipsa voluptas error itaque dicta in
-autem qui minus magnam et distinctio eum
-accusamus ratione error aut]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testJsonResponseCompare -->
-        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@ae45eb6]" name="testJsonResponseValidationPosts" duration-ms="711" started-at="2018-04-11T14:59:35Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-11T14:59:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://jsonplaceholder.typicode.com/posts]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[resources/SchemaPosts.json]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testJsonResponseValidationPosts -->
-        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@ae45eb6]" name="testJsonResponseValidationPosts" duration-ms="297" started-at="2018-04-11T14:59:35Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-11T14:59:36Z">
+        <test-method status="PASS" signature="testParamsPosts(java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@47c62251]" name="testParamsPosts" duration-ms="2703" started-at="2018-04-12T11:56:34Z" data-provider="DataProviderFilterParams" finished-at="2018-04-12T11:56:36Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[https://jsonplaceholder.typicode.com/comments]]>
               </value>
             </param>
-            <param index="1">
-              <value>
-                <![CDATA[resources/SchemaComments.json]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testJsonResponseValidationPosts -->
-        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@ae45eb6]" name="testJsonResponseValidationPosts" duration-ms="150" started-at="2018-04-11T14:59:36Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-11T14:59:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://jsonplaceholder.typicode.com/albums]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[resources/SchemaAlbums.json]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testJsonResponseValidationPosts -->
-        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@ae45eb6]" name="testJsonResponseValidationPosts" duration-ms="736" started-at="2018-04-11T14:59:36Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-11T14:59:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://jsonplaceholder.typicode.com/photos]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[resources/SchemaPhotos.json]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testJsonResponseValidationPosts -->
-        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@ae45eb6]" name="testJsonResponseValidationPosts" duration-ms="154" started-at="2018-04-11T14:59:37Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-11T14:59:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://jsonplaceholder.typicode.com/todos]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[resources/SchemaTodos.json]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testJsonResponseValidationPosts -->
-        <test-method status="PASS" signature="testJsonResponseValidationPosts(java.lang.String, java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@ae45eb6]" name="testJsonResponseValidationPosts" duration-ms="144" started-at="2018-04-11T14:59:37Z" data-provider="DataProviderFilterSchemas" finished-at="2018-04-11T14:59:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://jsonplaceholder.typicode.com/users]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[resources/SchemaUsers.json]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testJsonResponseValidationPosts -->
-        <test-method status="PASS" signature="testParamsPosts(java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@ae45eb6]" name="testParamsPosts" duration-ms="670" started-at="2018-04-11T14:59:37Z" data-provider="DataProviderFilterParams" finished-at="2018-04-11T14:59:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://jsonplaceholder.typicode.com/comments?postId]]>
-              </value>
-            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testParamsPosts -->
-        <test-method status="PASS" signature="testParamsPosts(java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@ae45eb6]" name="testParamsPosts" duration-ms="956" started-at="2018-04-11T14:59:38Z" data-provider="DataProviderFilterParams" finished-at="2018-04-11T14:59:39Z">
+        <test-method status="PASS" signature="testParamsPosts(java.lang.String)[pri:0, instance:TaeAutomation.AssuredTraining.RestAssuredTestParte2@47c62251]" name="testParamsPosts" duration-ms="682" started-at="2018-04-12T11:56:36Z" data-provider="DataProviderFilterParams" finished-at="2018-04-12T11:56:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://jsonplaceholder.typicode.com/posts?userId]]>
+                <![CDATA[https://jsonplaceholder.typicode.com/posts]]>
               </value>
             </param>
           </params>

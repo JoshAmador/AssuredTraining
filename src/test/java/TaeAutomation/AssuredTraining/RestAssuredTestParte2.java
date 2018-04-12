@@ -1,10 +1,13 @@
 package TaeAutomation.AssuredTraining;
 
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
+
 import java.nio.file.Paths;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -38,7 +41,8 @@ public class RestAssuredTestParte2 {
 				{ "100", 100, 10, "at nam consequatur ea labore ea harum",
 						"cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut" }, };
 	}
-
+	
+	
 	 @Test(dataProvider = "DataProviderFilterItems")
 	public void testJsonResponseCompare(String resourceName, int paramName, int paramValue, String fieldName,
 			String expectedValue) {
@@ -58,15 +62,19 @@ public class RestAssuredTestParte2 {
 
 	@DataProvider(name = "DataProviderFilterParams")
 	public Object[][] createDataParamsItems() {
-		return new Object[][] { { "https://jsonplaceholder.typicode.com/comments?postId" },
-				{ "https://jsonplaceholder.typicode.com/posts?userId" }, };
+		return new Object[][] { { "https://jsonplaceholder.typicode.com/comments" },
+				{ "https://jsonplaceholder.typicode.com/posts" }, };
 	}
 
 	@Test(dataProvider = "DataProviderFilterParams")
 	public void testParamsPosts(String resourceName) {
 		
-		RestAssured.given().params("postId", 1).params("userId", 1).when()
-				.get(resourceName).then().log().all();
+		RestAssured.given().params("postId", 1).when()
+		.get(resourceName).then().log().all();
+		
+		RestAssured.given().params("userId", 1).when()
+		.get(resourceName).then().log().all();
+		
 		System.out.println("Output:" + resourceName);
 		
 		Assert.assertNotNull(resourceName);

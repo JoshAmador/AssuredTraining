@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TaeAutomation.AssuredTraining.RestAssuredTestParte1">
+      <class name="TaeAutomation.AssuredTraining.RestAssuredTestParte2">
         <methods>
-          <include name="testResources" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="testParamsPosts" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- TaeAutomation.AssuredTraining.RestAssuredTestParte1 -->
+      </class> <!-- TaeAutomation.AssuredTraining.RestAssuredTestParte2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
